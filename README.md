@@ -1,4 +1,6 @@
-Cryptocurrency Ticker Dashboard
+##Cryptocurrency Ticker Dashboard
+
+
 This project is a simple cryptocurrency ticker dashboard that fetches the top 10 cryptocurrency data from the WazirX API, stores it in a MongoDB database, and displays the data on a web page. It is built using Node.js, Express, MongoDB, and vanilla HTML/CSS/JavaScript.
 
 Features:
@@ -13,6 +15,8 @@ MongoDB: Database to store the cryptocurrency data.
 Mongoose: ODM for connecting and interacting with MongoDB.
 Axios: Used for making HTTP requests to the WazirX API.
 HTML/CSS: For building the front-end interface.
+
+
 How It Works:
 The /fetch-tickers endpoint fetches the top 10 cryptocurrency data from the WazirX API and stores it in MongoDB.
 The /get-tickers endpoint retrieves the stored data from the database and serves it to the frontend.
